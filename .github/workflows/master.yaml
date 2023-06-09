@@ -2,6 +2,7 @@ name: Dev Packages and Docker images
 on:
   push:
     branches: [master]
+  workflow_dispatch:
 
 # Checks if any concurrent jobs is running for master CI and eventually cancel it
 concurrency:
